@@ -1,9 +1,7 @@
 module Ai4EComponentLib
 
 using ModelingToolkit
-
-@variables t
-∂ = Differential(t)
+using ModelingToolkit: t_nounits as t, D_nounits as ∂
 
 export t, ∂
 
